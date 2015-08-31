@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.jaway.restassured.rest_assured.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.092 sec <<< FAILURE!
+getRequestFindCapital(com.jaway.restassured.rest_assured.AppTest)  Time elapsed: 2.015 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Norvegia]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+
+getRequestFindCapital(com.jaway.restassured.rest_assured.AppTest)  Time elapsed: 0.268 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Regno Unito]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+
+getRequestFindCapital(com.jaway.restassured.rest_assured.AppTest)  Time elapsed: 0.25 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Bangladesh]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+

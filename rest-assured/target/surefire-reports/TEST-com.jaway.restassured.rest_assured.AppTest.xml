@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="com.jaway.restassured.rest_assured.AppTest" time="2.533" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\TasmiaA\workspace\rest-assured"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\TasmiaA\workspace\rest-assured"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TasmiaA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\TasmiaA\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1439490558956808154.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_45\bin;%M2_HOME%\bin;C:\Program Files (x86)\Zend\ZendServer\share\ZendFramework\bin;C:\Program Files (x86)\Zend\ZendServer\bin;C:\Program Files (x86)\Zend\MySQL55\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.3\bin;C:\Users\TasmiaA\Documents\eclipse-jee-mars-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\TasmiaA"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="TasmiaA"/>
+    <property name="java.class.path" value="/C:/Users/TasmiaA/Documents/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\TasmiaA\workspace\rest-assured\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.jaway.restassured.rest_assured.AppTest" name="getRequestFindCapital" time="2.015">
+    <failure message="The following asserts failed:
+expected [] but found [[Norvegia]]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Norvegia]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@726f3b58
+http://restcountries.eu/rest/v1/name/Norway
+[{&quot;name&quot;:&quot;Norway&quot;,&quot;capital&quot;:&quot;Oslo&quot;,&quot;altSpellings&quot;:[&quot;NO&quot;,&quot;Norge&quot;,&quot;Noreg&quot;,&quot;Kingdom of Norway&quot;,&quot;Kongeriket Norge&quot;,&quot;Kongeriket Noreg&quot;],&quot;relevance&quot;:&quot;1.5&quot;,&quot;region&quot;:&quot;Europe&quot;,&quot;subregion&quot;:&quot;Northern Europe&quot;,&quot;translations&quot;:{&quot;de&quot;:&quot;Norwegen&quot;,&quot;es&quot;:&quot;Noruega&quot;,&quot;fr&quot;:&quot;Norvège&quot;,&quot;ja&quot;:&quot;?????&quot;,&quot;it&quot;:&quot;Norvegia&quot;},&quot;population&quot;:5176998,&quot;latlng&quot;:[62.0,10.0],&quot;demonym&quot;:&quot;Norwegian&quot;,&quot;area&quot;:323802.0,&quot;gini&quot;:25.8,&quot;timezones&quot;:[&quot;UTC+01:00&quot;],&quot;borders&quot;:[&quot;FIN&quot;,&quot;SWE&quot;,&quot;RUS&quot;],&quot;nativeName&quot;:&quot;Norge&quot;,&quot;callingCodes&quot;:[&quot;47&quot;],&quot;topLevelDomain&quot;:[&quot;.no&quot;],&quot;alpha2Code&quot;:&quot;NO&quot;,&quot;alpha3Code&quot;:&quot;NOR&quot;,&quot;currencies&quot;:[&quot;NOK&quot;],&quot;languages&quot;:[&quot;no&quot;,&quot;nb&quot;,&quot;nn&quot;]}]
+</system-out>
+  </testcase>
+  <testcase classname="com.jaway.restassured.rest_assured.AppTest" name="getRequestFindCapital" time="0.268">
+    <failure message="The following asserts failed:
+expected [] but found [[Regno Unito]]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Regno Unito]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+</failure>
+    <system-out>http://restcountries.eu/rest/v1/name/Britain
+[{&quot;name&quot;:&quot;United Kingdom&quot;,&quot;capital&quot;:&quot;London&quot;,&quot;altSpellings&quot;:[&quot;GB&quot;,&quot;UK&quot;,&quot;Great Britain&quot;],&quot;relevance&quot;:&quot;2.5&quot;,&quot;region&quot;:&quot;Europe&quot;,&quot;subregion&quot;:&quot;Northern Europe&quot;,&quot;translations&quot;:{&quot;de&quot;:&quot;Vereinigtes Königreich&quot;,&quot;es&quot;:&quot;Reino Unido&quot;,&quot;fr&quot;:&quot;Royaume-Uni&quot;,&quot;ja&quot;:&quot;????&quot;,&quot;it&quot;:&quot;Regno Unito&quot;},&quot;population&quot;:64800000,&quot;latlng&quot;:[54.0,-2.0],&quot;demonym&quot;:&quot;British&quot;,&quot;area&quot;:242900.0,&quot;gini&quot;:34.0,&quot;timezones&quot;:[&quot;UTC?08:00&quot;,&quot;UTC?05:00&quot;,&quot;UTC?04:00&quot;,&quot;UTC?03:00&quot;,&quot;UTC?02:00&quot;,&quot;UTC&quot;,&quot;UTC+01:00&quot;,&quot;UTC+02:00&quot;,&quot;UTC+06:00&quot;],&quot;borders&quot;:[&quot;IRL&quot;],&quot;nativeName&quot;:&quot;United Kingdom&quot;,&quot;callingCodes&quot;:[&quot;44&quot;],&quot;topLevelDomain&quot;:[&quot;.uk&quot;],&quot;alpha2Code&quot;:&quot;GB&quot;,&quot;alpha3Code&quot;:&quot;GBR&quot;,&quot;currencies&quot;:[&quot;GBP&quot;],&quot;languages&quot;:[&quot;en&quot;]}]
+</system-out>
+  </testcase>
+  <testcase classname="com.jaway.restassured.rest_assured.AppTest" name="getRequestFindCapital" time="0.25">
+    <failure message="The following asserts failed:
+expected [] but found [[Bangladesh]]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+expected [] but found [[Bangladesh]]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.jaway.restassured.rest_assured.AppTest.getRequestFindCapital(AppTest.java:41)
+</failure>
+    <system-out>http://restcountries.eu/rest/v1/name/Bangladesh
+[{&quot;name&quot;:&quot;Bangladesh&quot;,&quot;capital&quot;:&quot;Dhaka&quot;,&quot;altSpellings&quot;:[&quot;BD&quot;,&quot;People&apos;s Republic of Bangladesh&quot;,&quot;Gônôprôjatôntri Bangladesh&quot;],&quot;relevance&quot;:&quot;2&quot;,&quot;region&quot;:&quot;Asia&quot;,&quot;subregion&quot;:&quot;Southern Asia&quot;,&quot;translations&quot;:{&quot;de&quot;:&quot;Bangladesch&quot;,&quot;es&quot;:&quot;Bangladesh&quot;,&quot;fr&quot;:&quot;Bangladesh&quot;,&quot;ja&quot;:&quot;???????&quot;,&quot;it&quot;:&quot;Bangladesh&quot;},&quot;population&quot;:158875000,&quot;latlng&quot;:[24.0,90.0],&quot;demonym&quot;:&quot;Bangladeshi&quot;,&quot;area&quot;:147570.0,&quot;gini&quot;:32.1,&quot;timezones&quot;:[&quot;UTC+06:00&quot;],&quot;borders&quot;:[&quot;MMR&quot;,&quot;IND&quot;],&quot;nativeName&quot;:&quot;Bangladesh&quot;,&quot;callingCodes&quot;:[&quot;880&quot;],&quot;topLevelDomain&quot;:[&quot;.bd&quot;],&quot;alpha2Code&quot;:&quot;BD&quot;,&quot;alpha3Code&quot;:&quot;BGD&quot;,&quot;currencies&quot;:[&quot;BDT&quot;],&quot;languages&quot;:[&quot;bn&quot;]}]
+</system-out>
+  </testcase>
+</testsuite>

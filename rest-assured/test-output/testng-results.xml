@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2717" started-at="2015-08-31T08:17:40Z" finished-at="2015-08-31T08:17:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2717" started-at="2015-08-31T08:17:40Z" finished-at="2015-08-31T08:17:43Z">
+      <class name="com.jaway.restassured.rest_assured.AppTest">
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@3834d63f]" name="getRequestFindCapital" duration-ms="1863" started-at="2015-08-31T01:17:40Z" data-provider="getData" finished-at="2015-08-31T01:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Norway]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oslo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Europe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Norvegia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestFindCapital -->
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@3834d63f]" name="getRequestFindCapital" duration-ms="267" started-at="2015-08-31T01:17:42Z" data-provider="getData" finished-at="2015-08-31T01:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Britain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Europe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Regno Unito]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestFindCapital -->
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@3834d63f]" name="getRequestFindCapital" duration-ms="552" started-at="2015-08-31T01:17:42Z" data-provider="getData" finished-at="2015-08-31T01:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangladesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhaka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bangladesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestFindCapital -->
+      </class> <!-- com.jaway.restassured.rest_assured.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

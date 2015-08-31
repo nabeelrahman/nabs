@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.jaway.restassured.rest_assured.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.jaway.restassured.rest_assured.AppTest">
+        <methods>
+          <include name="getRequestFindCapital" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.jaway.restassured.rest_assured.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.jaway.restassured.rest_assured.AppTest] -->
