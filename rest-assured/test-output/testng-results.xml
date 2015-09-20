@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3123" started-at="2015-09-05T23:33:35Z" finished-at="2015-09-05T23:33:38Z">
+  <suite name="Default suite" duration-ms="2516" started-at="2015-09-20T18:39:50Z" finished-at="2015-09-20T18:39:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3123" started-at="2015-09-05T23:33:35Z" finished-at="2015-09-05T23:33:38Z">
+    <test name="Default test" duration-ms="2516" started-at="2015-09-20T18:39:50Z" finished-at="2015-09-20T18:39:53Z">
       <class name="com.jaway.restassured.rest_assured.AppTest">
-        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="2176" started-at="2015-09-05T16:33:35Z" data-provider="getData" finished-at="2015-09-05T16:33:37Z">
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="1985" started-at="2015-09-20T11:39:51Z" data-provider="getData" finished-at="2015-09-20T11:39:52Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequestFindCapital -->
-        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="630" started-at="2015-09-05T16:33:37Z" data-provider="getData" finished-at="2015-09-05T16:33:38Z">
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="254" started-at="2015-09-20T11:39:52Z" data-provider="getData" finished-at="2015-09-20T11:39:53Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequestFindCapital -->
-        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="285" started-at="2015-09-05T16:33:38Z" data-provider="getData" finished-at="2015-09-05T16:33:38Z">
+        <test-method status="PASS" signature="getRequestFindCapital(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaway.restassured.rest_assured.AppTest@47fd17e3]" name="getRequestFindCapital" duration-ms="252" started-at="2015-09-20T11:39:53Z" data-provider="getData" finished-at="2015-09-20T11:39:53Z">
           <params>
             <param index="0">
               <value>

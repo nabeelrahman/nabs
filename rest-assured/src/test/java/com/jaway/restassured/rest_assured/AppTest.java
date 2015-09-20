@@ -33,11 +33,13 @@ public class AppTest {
 		//Declare variables
 		String actual_capital = jsonResponse.getJSONObject(0).getString("capital"); 
 		String actual_region = jsonResponse.getJSONObject(0).getString("region");
+		int response_code = resp.getStatusCode();
 		List<Object> actual_translations = resp.jsonPath().getList("translations.it");
 		String actual_translations_string  = actual_translations.toString().replaceAll("[\\[\\]]", "");
 		System.out.println(actual_translations);
 		System.out.println(actual_translations_string);
 		
+		softAssert.assertEquals(response_code, 200);
 		softAssert.assertEquals(actual_capital, expected_capital);
 		softAssert.assertEquals(actual_region, expected_region);
 		softAssert.assertEquals(actual_translations_string, expected_trans_it);
@@ -46,7 +48,10 @@ public class AppTest {
 	
 	 @DataProvider
 	     public Object[][] getData() {
-	         return new Object[][]{{"Norway", "Oslo","Europe", "Norvegia"}, {"Britain", "London","Europe","Regno Unito"}, {"Bangladesh","Dhaka","Asia","Bangladesh"}};
+	         return new Object[][]{
+	        	 {"Norway", "Oslo","Europe", "Norvegia"}, 
+	        	 {"Britain", "London","Europe","Regno Unito"}, 
+	        	 {"Bangladesh","Dhaka","Asia","Bangladesh"}};
 	     }
 
 }
