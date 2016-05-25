@@ -7,6 +7,7 @@ public class Rectangle {
 
 	public Rectangle(float length, float width) {
 		// TODO Auto-generated constructor stub
+		//test
 		this.length = length;
 		this.width = width;
 	}

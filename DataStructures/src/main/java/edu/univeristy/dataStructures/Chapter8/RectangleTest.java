@@ -4,6 +4,7 @@ public class RectangleTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//
 	
 		Rectangle rectangle = new Rectangle(5,5);
 		//Is this initializing the constructor ?
